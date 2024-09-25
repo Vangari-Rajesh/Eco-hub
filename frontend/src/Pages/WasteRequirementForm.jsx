@@ -62,7 +62,7 @@ function WasteReqForm() {
           transition:Slide
           });
           await new Promise((resolve) => setTimeout(resolve, 2000));
-          navigate('/homepage');
+          navigate('/artisan-dashboard');
         setUploadedImage(null);
         setTitle("");
         setDescription("");

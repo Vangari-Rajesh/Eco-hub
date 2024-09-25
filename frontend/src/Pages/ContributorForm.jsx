@@ -38,7 +38,7 @@ function ContributorForm() {
         transition: Slide,
         });
         await new Promise((resolve) => setTimeout(resolve, 2000));
-        navigate('/homepage');
+        navigate('/artisan-dashboard');
       
       // Clear the form fields
       setFullName('');

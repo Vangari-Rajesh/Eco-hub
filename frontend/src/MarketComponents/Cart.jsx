@@ -125,6 +125,8 @@ const checkoutHandler =async()=>{
   });
   razor.open();
   e.preventDefault();
+  // alert(await axios.delete("http://localhost:5001/clearCart"))
+
 }
 catch(error){
   console.log("error in payment verification ",error);

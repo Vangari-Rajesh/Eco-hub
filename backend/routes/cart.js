@@ -75,6 +75,8 @@ router.post("/buyCart",userMiddleware, async (req, res) => {
         // Assuming req.body already contains the cart item structure you want to add.
         user.buyCart.push(req.body); // Push the whole object, not just an ObjectId
 
+        await user.save();
+        user.cart = [];
         await user.save(); // Save the user document to persist changes
 
         res.status(201).json({ msg: "Item added to cart successfully" });

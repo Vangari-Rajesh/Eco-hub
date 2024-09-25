@@ -178,7 +178,7 @@ catch(error){
             </div>
             <div className="mt-2">
               <h3 className="text-lg font-semibold">Quantity Available:</h3>
-              <span className="ml-2">{quantity}</span>
+              <span className="ml-2">{innovreq.quantity}</span>
             </div>
           </div>
           <div className="space-s-1 3xl:pr-48 flex items-center gap-2 md:pr-32 lg:pr-12 2xl:pr-32">
